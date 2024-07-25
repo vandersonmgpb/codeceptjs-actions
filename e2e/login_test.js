@@ -17,7 +17,7 @@ Scenario('usuário não existe', ({ I }) => {
 
 Scenario('senha incorreta', ({ I }) => {
     I.login('qa', 'teste')
-    I.toast('Oops! Credenciais inválidas :(')
+    I.toast('Oops! Credenciais incorretas :(')
 })
 
 Scenario('com sucesso', ({ I }) => {
